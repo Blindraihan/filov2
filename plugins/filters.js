@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/xrd777.
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['xrd777','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','fazil','turbo','njan','fuck']
+const array = ['xrd777','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','appus']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -153,7 +153,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Filo','nexusnw','Aflah']
+const array = ['Filo','nexusnw','Aflah','appus']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
